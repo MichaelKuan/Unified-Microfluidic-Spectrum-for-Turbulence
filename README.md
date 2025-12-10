@@ -52,7 +52,7 @@ Each **row** defines one spectrum. Column names are case-insensitive.
 | Column | Meaning |
 |--------|---------|
 | `name` | Label used for output figures and summary table |
-| `epsilon` | Dissipation rate \( \varepsilon \) |
+| `epsilon` | Dissipation rate (ε) |
 | `m` | Inertial–range slope |
 
 #### Viscous cutoff (choose one)
@@ -91,8 +91,8 @@ If omitted, the script selects robust defaults based on \(k_\eta\), dissipation 
 The script automatically chooses a physically meaningful range:
 
 ```python
-- \(k_{\min}\) ≈ \(10^{-2} k_\eta\)  
-- \(k_{\max}\) based on the viscous tail exponent cap
+\(k_{\min}\) ≈ \(10^{-2} k_\eta\)  
+\(k_{\max}\) based on the viscous tail exponent cap
 ```
 
 To override this, specify `k_min` and/or `k_max` in the Excel file.
