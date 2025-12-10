@@ -99,9 +99,7 @@ To override this, specify `k_min` and/or `k_max` in the Excel file.
 
 ### 2.3 Adjusting the Y-axis (vertical range)
 
-The setting:
-
-controls how many logarithmic decades of \(E(k)\) are displayed.  
+The setting `y_span_decades` controls how many logarithmic decades of \(E(k)\) are displayed.  
 For example:
 
 - `6` → show top 6 decades  
