@@ -3,6 +3,7 @@
 ![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
 ![Status](https://img.shields.io/badge/status-stable-brightgreen.svg)
 
+
 This repository contains the Python implementation of the **Unified Microfluidic Master Spectrum**, a general turbulence-spectrum model that extends Kolmogorov–Pao theory to microfluidic flows. The model incorporates:
 
 - adjustable inertial-range slopes,
@@ -12,6 +13,8 @@ This repository contains the Python implementation of the **Unified Microfluidic
 - optional knee detection (amplitude- or slope-based),
 - batch parameter input from Excel.
 
+## Output Summary
+
 This repository accompanies the manuscript:
 
 > **Kuan et al., “A Unified Spectrum for Turbulence in Microfluidic Flow,” 202X.**
@@ -19,6 +22,29 @@ This repository accompanies the manuscript:
 The version included here corresponds to the **no log-periodic modulation** formulation used to generate all spectra reported in the manuscript.
 
 ---
+
+## 1. Installation
+
+Download or clone the repository:
+
+```bash
+git clone https://github.com/MichaelKuan/Unified-Microfluidic-Spectrum-for-Turbulence
+cd Unified-Microfluidic-Spectrum-for-Turbulence 
+```
+Install required Python packages:
+```bash
+pip install numpy pandas matplotlib openpyxl
+```
+
+You can then run the model with:
+```bash
+python master_spectrum_nomod.py
+```
+
+## 2. Usage Instruction
+## 3. Reproduce Figure from Manuscript
+## 4. Trouble-shooting
+## 5. Citation, License and Contact Information
 
 ## 1. Repository Structure
 
