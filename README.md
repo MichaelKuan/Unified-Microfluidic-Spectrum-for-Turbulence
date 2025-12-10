@@ -1,4 +1,7 @@
-# Unified Microfluidic Master Spectrum (No Log-Periodic Modulation)
+# Unified Microfluidic Master Spectrum for Turbulence
+![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)
+![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
+![Status](https://img.shields.io/badge/status-stable-brightgreen.svg)
 
 This repository contains the Python implementation of the **Unified Microfluidic Master Spectrum**, a general turbulence-spectrum model that extends Kolmogorov–Pao theory to microfluidic flows. The model incorporates:
 
