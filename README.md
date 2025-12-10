@@ -90,14 +90,16 @@ If omitted, the script selects robust defaults based on \(k_\eta\), dissipation 
 
 The script automatically chooses a physically meaningful range:
 
+```python
 - \(k_{\min}\) ≈ \(10^{-2} k_\eta\)  
 - \(k_{\max}\) based on the viscous tail exponent cap
+```
 
 To override this, specify `k_min` and/or `k_max` in the Excel file.
 
 ---
 
-### 2.3 Adjusting the Y-axis (vertical range)
+### 2.3 Adjusting the Y-axis (Energy-desity axis)
 
 The setting `y_span_decades` controls how many logarithmic decades of \(E(k)\) are displayed.  
 For example:
