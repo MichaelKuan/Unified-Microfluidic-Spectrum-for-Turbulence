@@ -58,10 +58,10 @@ Each **row** defines one spectrum. Column names are case-insensitive.
 #### Viscous cutoff (choose one)
 | Column | Meaning |
 |--------|---------|
-| `nu` | Kinematic viscosity (the script computes \(k_\eta\)) |
+| `nu` | Kinematic viscosity (the script computes (k_eta)) |
 | `k_eta` | Kolmogorov wavenumber (used directly) |
 
-Viscous damping parameters (optional):
+#### Viscous damping parameters (optional):
 | Column | Meaning |
 |--------|---------|
 | `gamma_v`, `alpha_v` | Viscous cutoff prefactor and exponent |
@@ -79,7 +79,7 @@ If `gamma_p` or `k_star` are blank, this term is ignored.
 |--------|---------|
 | `k_min`, `k_max` | Force custom wavenumber range |
 | `num_k` | Number of points in log-spaced k-grid |
-| `tail_exp_cap` | Controls automatic \(k_{\max}\) estimate |
+| `tail_exp_cap` | Controls automatic (k_max) estimate |
 | `y_span_decades` | Number of orders of magnitude shown vertically |
 
 If omitted, the script selects robust defaults based on \(k_\eta\), dissipation rate, and cutoff parameters.
@@ -90,10 +90,9 @@ If omitted, the script selects robust defaults based on \(k_\eta\), dissipation 
 
 The script automatically chooses a physically meaningful range:
 
-```python
-\(k_{\min}\) ≈ \(10^{-2} k_\eta\)  
-\(k_{\max}\) based on the viscous tail exponent cap
-```
+- k_min ≈ 10^-2 * k_eta
+- k_max based on `tail_exp_cap`
+
 
 To override this, specify `k_min` and/or `k_max` in the Excel file.
 
