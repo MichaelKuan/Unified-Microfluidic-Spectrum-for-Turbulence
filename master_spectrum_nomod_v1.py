@@ -17,7 +17,7 @@ Optional Excel columns (case-insensitive):
 """
 
 # ===== CONFIG =====
-EXCEL_PATH  = "master_spectrum_nomod_test copy.xlsx"
+EXCEL_PATH  = "master_spectrum_nomod_test_v1.xlsx"
 SHEET_NAME  = "TestPage"     # or None for first sheet
 OUTPUT_DIR  = "."
 CREATE_TEMPLATE_IF_MISSING = False
