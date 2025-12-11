@@ -82,7 +82,7 @@ If `gamma_p` or `k_star` are blank, this term is ignored.
 | `tail_exp_cap` | Controls automatic (k_max) estimate |
 | `y_span_decades` | Number of orders of magnitude shown vertically |
 
-If omitted, the script selects robust defaults based on \(k_\eta\), dissipation rate, and cutoff parameters.
+If omitted, the script selects robust defaults based on k_eta, dissipation rate, and cutoff parameters.
 
 ---
 
@@ -90,7 +90,7 @@ If omitted, the script selects robust defaults based on \(k_\eta\), dissipation 
 
 The script automatically chooses a physically meaningful range:
 
-- k_min ≈ 10^-2 * k_eta
+- k_min ≈ 10^-2 * `k_eta`
 - k_max based on `tail_exp_cap`
 
 
