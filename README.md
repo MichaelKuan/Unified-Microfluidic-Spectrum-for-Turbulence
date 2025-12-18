@@ -118,7 +118,7 @@ The script supports two types of knee detection:
 - **Amplitude-based:** identifies where \(E(k)\) drops by a chosen factor
     - Default: `KNEE_FACTOR = e^-1 ≈ 0.3679`
         - Marks the onset of viscous dissipation at the corresponding length scale.
-- **Slope-based:** identifies where the spectrum steepens by a chosen \(\Delta s\)
+- **Slope-based:** identifies where the spectrum steepens by a chosen Delta_S
     -  Default: `DELTA_SLOPE = 3`
         - Marks the scale where the spectrum becomes three powers steeper than the inertial slope (i.e., slope = −(m + 3)).
 
