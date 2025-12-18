@@ -20,7 +20,7 @@ This repository contains the Python implementation of the **Unified Microfluidic
 
 This repository accompanies the manuscript:
 
-> **Kuan et al., “A Unified Spectrum for Turbulence in Microfluidic Flow,” 202X.**
+> **Kuan et al., “A Unified Spectrum for Turbulence in Microfluidic Flow,” 2025.**
 
 The version included here corresponds to the **no log-periodic modulation** formulation used to generate all spectra reported in the manuscript.
 
