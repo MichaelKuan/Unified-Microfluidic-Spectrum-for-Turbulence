@@ -148,9 +148,10 @@ See the LICENSE file for details.
 
 For questions, bug reports, or academic inquiries related to this repository, please contact:
 
-- **Mr. Chit Yau Kuan**
-    Department of Biomedical Engineering, The Chinese University of Hong Kong
-    Email: 1155127093@link.cuhk.edu.hk
+-  **Mr. Chit Yau Kuan**  
+  Department of Biomedical Engineering, The Chinese University of Hong Kong  
+  Email: 1155127093@link.cuhk.edu.hk
+
 - **Prof. Ken-Tye Yong (Corresponding author)**  
   School of Biomedical Engineering, The University of Sydney  
   Email: ken.yong@sydney.edu.au
