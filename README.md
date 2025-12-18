@@ -15,7 +15,7 @@ This repository contains the Python implementation of the **Unified Microfluidic
 
 ## Output Summary
 
-![Master spectrum example](Turbulence energy spectrum.png)
+![Master spectrum example](Turbulence_energy_spectrum.png)
 
 
 This repository accompanies the manuscript:
