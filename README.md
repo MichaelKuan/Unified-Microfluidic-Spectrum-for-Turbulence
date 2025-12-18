@@ -115,8 +115,10 @@ If omitted, a reasonable default is used.
 
 The script supports two types of knee detection:
 
-- **Amplitude-based:** identifies where \(E(k)\) drops by a chosen factor  
+- **Amplitude-based:** identifies where \(E(k)\) drops by a chosen factor
+- *** Default setting: kNEE_FACTOR = e^-1 = 0.367879441, indicating the onset of viscous dissipation at corresponding length scale
 - **Slope-based:** identifies where the spectrum steepens by a chosen \(\Delta s\)
+- ** Default setting: DELTA_SLOPE = 3, indicating a marker at k when slope is 3 power steeper than inertial slope (i.e. -(m + 3))
 
 Enable them in the Python file:
 
