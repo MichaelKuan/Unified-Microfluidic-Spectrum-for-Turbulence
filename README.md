@@ -132,8 +132,35 @@ SHOW_KNEES_SLOPE = False
 ## 3. Reproduce Figure from Manuscript
 ## 4. Trouble-shooting
 ## 5. Citation, License and Contact Information
+### Citation
 
-## 1. Repository Structure
+If you use this code or adapt the master spectrum formulation in your work, please cite:
+
+> C. Y. Kuan, X. Liu, Y. P. Ho, and K.-T. Yong,  
+> *A Unified Spectrum for Turbulence in Microfluidic Flow*,  
+> arXiv:2511.02253 (2025).
+### License
+
+This project is released under the MIT License.  
+You are free to use, modify, and distribute this code with appropriate attribution.
+See the LICENSE file for details.
+### Contact
+
+For questions, bug reports, or academic inquiries related to this repository, please contact:
+
+- **Mr. Chit Yau Kuan**
+    Department of Biomedical Engineering, The Chinese University of Hong Kong
+    Email: 1155127093@link.cuhk.edu.hk
+- **Prof. Ken-Tye Yong (Corresponding author)**  
+  School of Biomedical Engineering, The University of Sydney  
+  Email: ken.yong@sydney.edu.au
+
+For issues specific to code execution, please open a GitHub Issue.
+
+
+If the manuscript is accepted for publication, please cite the published version.
+
+## Repository Structure
 
 ```text
 unified-microfluidic-spectrum/
