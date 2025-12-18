@@ -164,7 +164,7 @@ For issues specific to code execution, please open a GitHub Issue.
 
 If the manuscript is accepted for publication, please cite the published version.
 
-## Repository Structure
+%## Repository Structure
 
 ```text
 unified-microfluidic-spectrum/
